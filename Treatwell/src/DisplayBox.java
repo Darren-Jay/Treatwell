@@ -1,5 +1,5 @@
 
-public class Box {
+public class DisplayBox {
 
 	
 	
