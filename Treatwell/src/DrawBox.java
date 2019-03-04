@@ -9,30 +9,32 @@ public class DrawBox {
 public DrawBox(int w, int h) { //this method is stating what type of variables they are
 		
 	
-		width = w; 
-		height = h; 
+		width = w;  //width value will be stored in "w"
+		height = h; //height value will be stored in "h"
 	
 }
 
+//This method is doing the actual drawing of the square/box
 	public void Draw() {
 		
 		
-		for(int i = 0; i < width; i++) { //flow is for the amount of hyphens for the top width
+		for(int i = 0; i < width; i++) { //for loop is for the amount of hyphens for the top width
 			System.out.print("-"); //width top
-			System.out.print("  "); //added spacing to draw a square
+			System.out.print("  "); //added spacing to draw a square/box
 		}
 		
 		System.out.println();
 		
 		for(int i = 0; i < height; i++) { //this for loop is for the left side of height
 			System.out.print("|"); // height left
+						
 			
 			for(int j = 0; j < width; j++) { //this loop is for the right side of height
-				System.out.print("  "); //this for loop is for the general width 
+				System.out.print("  "); //this give equal spacing for the right side of the height
 				
 			}
 			
-			System.out.print("|"); //right side of height 
+			System.out.print("|"); //For the when w = 4 for example, this for loop matches width and prints the height "|"
 			System.out.println();
 			
 		}
