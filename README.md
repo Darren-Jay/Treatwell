@@ -8,7 +8,6 @@
  
  # Pre requisites 
  - Install Eclipse Java 2018-09
- - 
  
  # How to use
  - Open Eclipse 
