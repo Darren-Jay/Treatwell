@@ -1,6 +1,6 @@
  Treatwell Submission: March 2019
  
- This project was created using Eclipse Java 2018-09
+ This project was generated using Eclipse Java 2018-09
  
  This uses JavaSE 1.8 as a JRE System library
  
@@ -11,9 +11,10 @@
  
  # How to use
  - Open Eclipse 
- - In Eclipse navigate to "Window" > "Show View" > "Other" > "Git" > "Git Repositories" - this will open a new window
+ - Navigate to "Window" 
+ - Followed by "Show View" > "Other" > "Git" > "Git Repositories" - this will open a new window
  - Click on "clone a git repository" 
- - To clone the respository paste the link into the URI "https://github.com/Darren-Jay/Treatwell.git" 
+ - Then clone the respository and paste the link into the URI "https://github.com/Darren-Jay/Treatwell.git" 
  - Eclipse will load the project
  
  # Documentation
